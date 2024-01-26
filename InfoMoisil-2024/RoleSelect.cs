@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InfoMoisil_2024
 {
-	public partial class RoleSelect : Form
+	public partial class roleSelectForm : Form
 	{
-		public RoleSelect()
+		public roleSelectForm()
 		{
 			InitializeComponent();
 			FakeButton.Select();
