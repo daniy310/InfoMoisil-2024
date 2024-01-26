@@ -83,7 +83,7 @@
             this.saveButton.Location = new System.Drawing.Point(278, 481);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(138, 50);
-            this.saveButton.TabIndex = 23;
+            this.saveButton.TabIndex = 25;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
@@ -142,7 +142,7 @@
             this.passwordConfirmationTextbox.Name = "passwordConfirmationTextbox";
             this.passwordConfirmationTextbox.PasswordChar = '*';
             this.passwordConfirmationTextbox.Size = new System.Drawing.Size(201, 38);
-            this.passwordConfirmationTextbox.TabIndex = 28;
+            this.passwordConfirmationTextbox.TabIndex = 23;
             // 
             // label4
             // 
