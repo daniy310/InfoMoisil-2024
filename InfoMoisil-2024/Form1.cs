@@ -43,8 +43,8 @@ namespace InfoMoisil_2024
                 {
                     this.Hide();
 
-                        //choosePlayerMenu = new choosePlayerMenu(username);
-                        //choosePlayerMenu.Show();
+                    menuForm MenuForm = new menuForm(username);
+                    MenuForm.Show();
                     }
                     else
                 {
