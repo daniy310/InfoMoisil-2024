@@ -34,5 +34,11 @@ namespace InfoMoisil_2024
 				tableLayoutPanel1.Controls.Add(labels[i], i / 4, i % 4);
 			}
 		}
+
+		private void buttonVerify_Click(object sender, EventArgs e)
+		{
+			if (textBoxValidare.Text == "infomoisil")
+				return;
+		}
 	}
 }

@@ -31,7 +31,7 @@
 			this.labelCharTemplate = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.textBoxValidare = new System.Windows.Forms.TextBox();
 			this.buttonVerify = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -77,13 +77,14 @@
 			this.tableLayoutPanel1.Size = new System.Drawing.Size(550, 317);
 			this.tableLayoutPanel1.TabIndex = 3;
 			// 
-			// textBox1
+			// textBoxValidare
 			// 
-			this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox1.Location = new System.Drawing.Point(619, 407);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(169, 31);
-			this.textBox1.TabIndex = 4;
+			this.textBoxValidare.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBoxValidare.Location = new System.Drawing.Point(619, 407);
+			this.textBoxValidare.Name = "textBoxValidare";
+			this.textBoxValidare.Size = new System.Drawing.Size(169, 31);
+			this.textBoxValidare.TabIndex = 4;
+			this.textBoxValidare.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
 			// buttonVerify
 			// 
@@ -94,6 +95,7 @@
 			this.buttonVerify.TabIndex = 5;
 			this.buttonVerify.Text = "Verify";
 			this.buttonVerify.UseVisualStyleBackColor = true;
+			this.buttonVerify.Click += new System.EventHandler(this.buttonVerify_Click);
 			// 
 			// HelperMan
 			// 
@@ -102,7 +104,7 @@
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(155)))), ((int)(((byte)(161)))));
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.buttonVerify);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.textBoxValidare);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.labelCharTemplate);
@@ -118,7 +120,7 @@
 		private System.Windows.Forms.Label labelCharTemplate;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox textBoxValidare;
 		private System.Windows.Forms.Button buttonVerify;
 	}
 }

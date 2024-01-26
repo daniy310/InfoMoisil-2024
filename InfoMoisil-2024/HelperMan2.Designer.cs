@@ -30,7 +30,7 @@
 		{
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.buttonVerify = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.textBoxValidare = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// tableLayoutPanel1
@@ -60,14 +60,15 @@
 			this.buttonVerify.TabIndex = 7;
 			this.buttonVerify.Text = "Verify";
 			this.buttonVerify.UseVisualStyleBackColor = true;
+			this.buttonVerify.Click += new System.EventHandler(this.buttonVerify_Click);
 			// 
-			// textBox1
+			// textBoxValidare
 			// 
-			this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.textBox1.Location = new System.Drawing.Point(657, 407);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(131, 31);
-			this.textBox1.TabIndex = 6;
+			this.textBoxValidare.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBoxValidare.Location = new System.Drawing.Point(657, 407);
+			this.textBoxValidare.Name = "textBoxValidare";
+			this.textBoxValidare.Size = new System.Drawing.Size(131, 31);
+			this.textBoxValidare.TabIndex = 6;
 			// 
 			// HelperMan2
 			// 
@@ -75,7 +76,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.buttonVerify);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.textBoxValidare);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Name = "HelperMan2";
 			this.Text = "HelperMan2";
@@ -87,6 +88,6 @@
 		#endregion
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 		private System.Windows.Forms.Button buttonVerify;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox textBoxValidare;
 	}
 }
