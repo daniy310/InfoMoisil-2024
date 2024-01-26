@@ -74,6 +74,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>InfoMoisilDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="HelperMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperMan.Designer.cs">
+      <DependentUpon>HelperMan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperMan2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperMan2.Designer.cs">
+      <DependentUpon>HelperMan2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +126,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelperMan.resx">
+      <DependentUpon>HelperMan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelperMan2.resx">
+      <DependentUpon>HelperMan2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
