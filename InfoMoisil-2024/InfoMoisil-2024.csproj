@@ -69,6 +69,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="InfoMoisilDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfoMoisilDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,7 +121,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-
     <EmbeddedResource Include="RoleSelect.resx">
       <DependentUpon>RoleSelect.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,8 +132,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Title.resx">
       <DependentUpon>Title.cs</DependentUpon>
-
     </EmbeddedResource>
+    <None Include="InfoMoisilDBDataSet.xsc">
+      <DependentUpon>InfoMoisilDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InfoMoisilDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InfoMoisilDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InfoMoisilDBDataSet.xss">
+      <DependentUpon>InfoMoisilDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -145,7 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\user.png" />
- </ItemGroup>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="InfoMoisilDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
