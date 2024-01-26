@@ -34,8 +34,8 @@ namespace InfoMoisil_2024
         {
             this.Hide();
 
-            //choosePlayerMenu = new choosePlayerMenu(username);
-            //choosePlayerMenu.Show();
+            roleSelectForm RoleSelectForm = new roleSelectForm();
+            RoleSelectForm.Show();
 
         }
 
