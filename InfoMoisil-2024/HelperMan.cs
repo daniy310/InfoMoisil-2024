@@ -61,9 +61,12 @@ namespace InfoMoisil_2024
 
 		private void buttonVerify_Click(object sender, EventArgs e)
 		{
-			if (textBoxValidare.Text == "abracadabra")
-				return;
-		}
+            if (textBoxValidare.Text == "abracadabra")
+            {
+                MessageBox.Show("Corect!");
+                this.Hide();
+            }
+        }
 
 		private void textBox1_TextChanged(object sender, EventArgs e)
 		{

@@ -27,7 +27,18 @@ namespace InfoMoisil_2024
 		private void buttonRight_Click(object sender, EventArgs e)
 		{
 			FakeButton.Focus();
-		}
 
-	}
+                FakeButton.Focus();
+                this.Hide();
+                HelperMan helperMan = new HelperMan();
+                helperMan.Show();
+            
+
+        }
+
+        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
 }
