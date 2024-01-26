@@ -20,6 +20,9 @@ namespace InfoMoisil_2024
 		private void buttonLeft_Click(object sender, EventArgs e)
 		{
 			FakeButton.Focus();
+			this.Hide();
+			puzzleManBecForm PuzzleManBecForm = new puzzleManBecForm();
+			PuzzleManBecForm.Show();
 		}
 		private void buttonRight_Click(object sender, EventArgs e)
 		{
