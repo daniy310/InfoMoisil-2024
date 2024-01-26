@@ -14,16 +14,16 @@ namespace InfoMoisil_2024
     public partial class puzzleManBecForm : Form
     {
         bool[] secv = new bool[10] {
+            false,
+            true,
+            true,
             true,
             false,
             false,
             true,
-            true,
             false,
             false,
-            true,
             false,
-            true,
         };
 
         bool[] buttonsState = new bool[10];
