@@ -16,7 +16,7 @@ namespace InfoMoisil_2024
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RoleSelect());
+            Application.Run(new loginForm());
         }
     }
 }
