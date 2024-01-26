@@ -27,6 +27,8 @@ namespace InfoMoisil_2024
 		private void buttonRight_Click(object sender, EventArgs e)
 		{
 			FakeButton.Focus();
+			this.Hide();
+			
 		}
 
 	}
