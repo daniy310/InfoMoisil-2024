@@ -39,12 +39,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(108, 30);
+            this.label2.Location = new System.Drawing.Point(120, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 39);
+            this.label2.Size = new System.Drawing.Size(174, 39);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Nume joc?";
+            this.label2.Text = "InfoMoisil";
             // 
             // saveButton
             // 
@@ -62,6 +63,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(131, 99);
             this.label1.Name = "label1";
@@ -112,6 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::InfoMoisil_2024.Properties.Resources.FundalAuth;
             this.ClientSize = new System.Drawing.Size(417, 459);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.saveButton);

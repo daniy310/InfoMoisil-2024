@@ -126,6 +126,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="puzzleManBecForm.resx">
       <DependentUpon>puzzleManBecForm.cs</DependentUpon>
@@ -167,6 +168,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\FundalAuth.png" />
     <Content Include="Resources\user.png" />
   </ItemGroup>
   <ItemGroup>

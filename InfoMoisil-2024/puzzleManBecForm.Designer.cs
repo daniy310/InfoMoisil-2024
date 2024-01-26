@@ -47,6 +47,7 @@
             // 
             // buttonsPanel
             // 
+            this.buttonsPanel.BackColor = System.Drawing.Color.Transparent;
             this.buttonsPanel.Controls.Add(this.button1);
             this.buttonsPanel.Controls.Add(this.button2);
             this.buttonsPanel.Controls.Add(this.button3);
@@ -179,11 +180,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::InfoMoisil_2024.Properties.Resources.FundalAuth;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.buttonsPanel);
             this.Name = "puzzleManBecForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "puzzleManBecForm";
             this.Load += new System.EventHandler(this.puzzleManBecForm_Load);
             this.buttonsPanel.ResumeLayout(false);
